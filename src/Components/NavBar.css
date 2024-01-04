@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+.nav{
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.nav a:hover{
+    color: yellowgreen;
+}
+
+.active{
+    background-color: yellowgreen;
+    padding: 8px 15px;
+    border-radius: 15px;
+}
+
+.LOGO p{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

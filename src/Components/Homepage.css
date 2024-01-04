@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+h1{
+    color: #000;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+    width: 340px;
+    height: 550px;
+    flex-shrink: 0;
+    overflow: hidden;
+    border-radius: 15px;
+    justify-content: space-between;
+}
+
+.Card img{
+    width: 340px;
+    height: 353px;
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    object-position: center;
+}
+
+
+.cardDetail{
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 11px;
+    margin-bottom: 15px;
+}
+
+.cardDetail p{
+    margin-top: 8px;
+    margin-left: 14px;
+}
+
+.Card button{
+    width: 340px;
+    height: 56px;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+}
+
+.Card button:hover{
+    background-color: rgb(203, 203, 203);
+    color: black;
+}
+
+.allCards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px; 
+    margin-bottom: 50px;
+}
